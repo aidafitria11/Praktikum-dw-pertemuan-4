@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOTEL ALINI </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>List Checkin Hotel</h1>
+    <input type="text" id="task-input" placeholder="Nomor Kamar">
+    <button id="add-task-btn">Setuju</button>
+
+    <h3>Pilihan :</h3>
+    <button onclick="filterTasks('all')">All</button>
+    <button onclick="filterTasks('active')">Check In</button>
+    <button onclick="filterTasks('completed')">Check Out</button>
+
+    <ul id="task-list"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
